@@ -6,7 +6,7 @@ project(anton_math)
 # Add anton_types
 FetchContent_Declare(
     anton_types
-    GIT_REPOSITORY https://github.com/kociap/anton_types.git
+    GIT_REPOSITORY https://github.com/Didgy74/anton_types.git
 )
 FetchContent_MakeAvailable(anton_types)
 
