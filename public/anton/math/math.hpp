@@ -13,7 +13,7 @@ extern "C" {
     #    define ANTON_NOEXCEPT
     #    define ANTON_CRT_IMPORT __declspec(dllimport)
     #else
-    #    define ANTON_NOEXCEPT noexcept
+    #    define ANTON_NOEXCEPT
     #    define ANTON_CRT_IMPORT
     #endif
 
